@@ -33,7 +33,8 @@ function Menu(props) {
             </NavDropdown>
             <NavDropdown title="Options" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={() => changeLang('en') }>{menu.entry3.item1}</NavDropdown.Item>
-              <NavDropdown.Item onClick={() => changeLang('fr') }>{menu.entry3.item2} </NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeLang('fr')}>{menu.entry3.item2} </NavDropdown.Item>
+              <NavDropdown.Item onClick={() => changeLang('pt') }>{menu.entry3.item3} </NavDropdown.Item>
               {/*<NavDropdown.Item onClick={() => changeLang('fr') }>{menu.entry3.item3} </NavDropdown.Item>*/}
             </NavDropdown>
             {/*<Nav.Link href="#link">?</Nav.Link>*/}

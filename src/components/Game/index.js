@@ -35,7 +35,7 @@ const nextDate = new Date('March 25, 2019 09:00:00');
 const endDate = new Date('March 31, 2019 17:00:00');
 
 const initialState = {
-  user: 'tptp',
+  user: '',
   userCase: 0, // First arg is the n° case Cases[0][this.state.lang].steps[0]
   userStep: 0, //  second arg n° step :  Cases[0][this.state.lang].steps[0]
   lang: 'en',
@@ -83,7 +83,7 @@ class Interface extends Component {
   }
 
   componentDidMount() {
-    this.onChangeStep(20);
+    this.onChangeStep(1);
   }
 
   /*

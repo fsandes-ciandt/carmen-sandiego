@@ -1,0 +1,13 @@
+Game/index.js
+Game/Instructions/index.js
+Game/Instructions/User/index.js
+GameData/Data/Cases/index.js
+GameData/Data/Config/index.js
+GameData/Data/Dossiers/index.js
+Game/Menu/index.js
+Game/Menu/Dossiers/index.js
+Game/Menu/Credits/index.js
+Game/Modals/Destinations/index.js
+Game/Menu/index.stories.js
+Game/Modals/Map/index.js
+Game/Modals/Map/map-2.jpg

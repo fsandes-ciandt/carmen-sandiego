@@ -466,6 +466,238 @@ const Cases = [
       "endSuccess": {
         "thanks3": "a le butin, the elevator from the Eiffel Tower, which will be returned to the grateful residents of Paris."
       }
+    },
+    "pt": {
+      "start":[
+        "****** FLASH ******", 
+        "Tesouro nacional roubado de Paris.",
+        "O tesouro foi identificado como o elevador da Torre Eiffel.",
+        "Suspeita do sexo feminino relatada na cena do crime.",
+        "Sua missão: rastrear a ladra de Paris até seu esconderijo e prendê-la!",
+        "Você deve apreender a ladra até domingo, 17h.",
+        "Boa sorte! "
+      ],
+      "steps": [
+        {
+          "city": {
+            "name": "Paris",
+            "description": "A França, com uma população de cerca de 55 milhões, é famosa por sua comida, vinho, moda e arte.",
+            "img": "paris.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "museum",
+                "value": "Museu"
+              },
+              "Guy": {
+                "key": "curator",
+                "value": "Curador"
+              },
+              "Clue": "Fontes me dizem que ela fez perguntas sobre rituais xintoístas."
+            },
+            {
+              "Place": {
+                "key": "airport",
+                "value": "Aeroporto"
+              },
+              "Guy": {
+                "key": "pilot",
+                "value": "Piloto"
+              },
+              "Clue": "Eu vi a pessoa que você está procurando e ela saiu em um avião com uma bandeira vermelha e branca na asa. Ela perguntou sobre o último jogo de tênis."
+            },
+            {
+              "Place": {
+                "key": "palace",
+                "value": "Palácio"
+              },
+              "Guy": {
+                "key": "soldier",
+                "value": "Soldado"
+              },
+              "Clue": "Tudo que eu sei é que ela pediu uma biografia do Imperador Jimmu."
+            }
+          ],
+          "destinations": ["Oslo","Tokyo","Reykjavik"]
+        },
+        {
+          "city": {
+            "name": "Tokyo",
+            "description": "Tóquio, a capital do Japão, é avistada pelo Monte Fuji, um dos pontos turísticos mais famosos do Japão",
+            "img": "tokyo.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "hotel",
+                "value": "Hotel"
+              },
+              "Guy": {
+                "key": "housedetective",
+                "value": "Detetive particular"
+              },
+              "Clue": "Eu ouvi dizer que ela queria saber se ela poderia pegar um navio a vapor pelo Rio Tigre."
+            },
+            {
+              "Place": {
+                "key": "airport",
+                "value": "Aeroporto"
+              },
+              "Guy": {
+                "key": "pilot",
+                "value": "Piloto"
+              },
+              "Clue": "Minhas fontes me dizem que ela disse que tinha um emprego esperando por ela em um campo de petróleo."
+            },
+            {
+              "Place": {
+                "key": "palace",
+                "value": "Palácio"
+              },
+              "Guy": {
+                "key": "privycouncillor",
+                "value": "Conselheiro privado"
+              },
+              "Clue": "A pessoa que você está procurando esteve aqui e ficou decepcionada ao descobrir que não havia livros sobre os assírios."
+            }
+          ],
+          "destinations": ["Bamako","Baghdad","Moscow"]
+        },
+        {
+          "city": {
+            "name": "Bagdá",
+            "description": "Na antiguidade, o Iraque era conhecido como Mesopotâmia. O Iraque moderno faz fronteira com os países da Jordânia, Síria, Turquia, Irã, Kuwait e Arábia Saudita.",
+            "img": "baghdad.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "bank",
+                "value": "Banco"
+              },
+              "Guy": {
+                "key": "bankguard",
+                "value": "Guarda do banco"
+              },
+              "Clue": "Eu ouvi dizer que ela trocou seu dinheiro por libras, ela estava dirigindo uma limousine."
+            },
+            {
+              "Place": {
+                "key": "library",
+                "value": "Biblioteca"
+              },
+              "Guy": {
+                "key": "referencelibrarian",
+                "value": "Bibliotecário de referência"
+              },
+              "Clue": "Eu ouvi dizer que ela saiu em um veículo com uma bandeira vermelha, branca e preta. Percebi uma tatuagem no braço dela."
+            },
+            {
+              "Place": {
+                "key": "foreignministry",
+                "value": "Ministério das Relações Exteriores"
+              },
+              "Guy":{
+                "key":"undersecretary",
+                "value":"Subsecretário"
+              },
+              "Clue": "uma suspeita esteve aqui e ela disse que estava interessada em pirâmides."
+            }
+          ],
+          "destinations": ["Atenas","Cairo","Rio de Janeiro"]
+        },
+        {
+          "city": {
+            "name": "Cairo",
+            "description": "O Cairo, localizado na foz do Rio Nilo, é a maior cidade da África.",
+            "img": "cairo.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "museum",
+                "value": "Museu"
+              },
+              "Guy": {
+                "key": "curator",
+                "value": "Gardião"
+              },
+              "Clue": "Uma fonte confiável me disse que ela queria estudar manuscritos saxônicos."
+            },
+            {
+              "Place": {
+                "key": "riverfront",
+                "value": "Beira-rio"
+              },
+              "Guy": {
+                "key": "sailorssnail",
+                "value": "Caracol de marinheiro"
+              },
+              "Clue": "Minhas fontes me dizem que ela saiu em um rebocador com uma bandeira vermelha, branca e azul."
+            },
+            {
+              "Place": {
+                "key": "palace",
+                "value": "Palácio"
+              },
+              "Guy": {
+                "key": "palaceguard",
+                "value": "Guarda do palácio"
+              },
+              "Clue": "A pessoa que você está procurando esteve aqui e ela disse que queria descobrir o que fazia o Big Ben funcionar."
+            }
+          ],
+          "destinations": ["Londres","Colombo","Roma"]
+        },
+        {
+          "city": {
+            "name": "Londres",
+            "description": "Londres, com uma população de mais de 6,5 milhões, é a maior cidade do Reino Unido. Um de seus muitos marcos é a torre do relógio Big Ben.",
+            "img": "london.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "hotel",
+                "value": "Hotel"
+              },
+              "Guy": {
+                "key": "housedetective",
+                "value": "Detetive particular"
+              },
+              "Clue": "Tudo que eu sei é que algo suspeito está acontecendo na cidade."
+            },
+            {
+              "Place": {
+                "key": "harbor",
+                "value": "Porto"
+              },
+              "Guy": {
+                "key": "sailor",
+                "value": "Marinheiro"
+              },
+              "Clue": "Tudo que eu sei é que algo suspeito está acontecendo na cidade."
+            },
+            {
+              "Place": {
+                "key":"foreignministry",
+                "value": "Ministério das Relações Exteriores"
+              },
+              "Guy": {
+                "key": "palaceguard",
+                "value": "Guarda do palácio"
+              },
+              "Clue": ""
+            }
+          ],
+          "destinations": []
+        }
+      ],
+      "thief": "Dazzle Annie Nonker",
+      "endSuccess": {
+        "thanks3": "tinha o saque, o elevador da Torre Eiffel, que será devolvido aos gratos moradores de Paris."
+      }
     }
   }
 ];

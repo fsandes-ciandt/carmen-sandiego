@@ -28,7 +28,21 @@ const Dossiers = [
       "vehicule": "1939 Packard convertible Decapotable",
       "feature": "never appears in public without her famous ruby necklace",
       "Other": "Great fondness of tacos",
-      "picture": "carmen-sandiego.jpg"}
+      "picture": "carmen-sandiego.jpg"
+    },
+    "pt": {
+      "id": "1",
+      "name": "Carmen Sandiego", 
+      "sex": "Feminino",
+      "Occupation":  "Uma ex-espiã do Serviço de Inteligência de Mônaco",
+      "Miscellaneous":  "Carmen Sandiego (conhecida no círculo interno como 'Buffy') é relatada como agente, agente duplo, agente triplo e agente quádruplo para tantos países que ela mesma se esqueceu para qual está trabalhando. A fundadora de cabelos castanhos avermelhados da Legião Internacional do Mal de Vilões (V.I.L.E.) recrutou o grupo de ladrões mais astuto e engenhoso da história. Durante seus anos como agente secreta de Mônaco, ela geralmente se apresentava como uma profissional de tênis e sempre viajava para e de suas partidas em seu conversível Packard de 1939. Carmen tem um gosto por tacos e nunca aparece em público sem seu famoso colar de rubi 'A Lua da Moldávia'.",
+      "hair": "Vermelho",
+      "hobby": "Tênis",
+      "vehicule": "Conversível Packard Decapotable de 1939",
+      "feature": "nunca aparece em público sem seu famoso colar de rubi",
+      "Other": "Grande gosto por tacos",
+      "picture": "carmen-sandiego.jpg"
+    }
   },
   {
     "en": {
@@ -55,6 +69,19 @@ const Dossiers = [
       "vehicule": "Limousine",
       "feature": "Diamant",
       "Other": "Nourriture épicée",
+      "picture": "merey-laroc.jpg"
+    },
+    "pt": {
+      "id": "2",
+      "name": "Merey LaRoc", 
+      "sex": "Feminino",
+      "Occupation":  "Ms. LaRoc é uma dançarina aeróbica freelancer",
+      "Miscellaneous":  "Nos últimos cinco anos, esta morena beleza tem viajado pelo mundo com um spa de saúde móvel para ministrar aulas de exercícios para os extremamente ricos. Dizem que isso é apenas uma capa para suas atividades criminosas. Quando não está saqueando os tesouros do mundo, Merey geralmente pode ser encontrada participando da boa vida. Uma alpinista de classe mundial, ela tem uma mania por joias chiques e comidas picantes. Seu modo de viagem favorito é no fundo de uma limousine chique onde ela pode relaxar e planejar seu próximo trabalho.",
+      "hair": "Preto",
+      "hobby": "Alpinista",
+      "vehicule": "Limousine",
+      "feature": "Joias",
+      "Other": "Comidas picantes",
       "picture": "merey-laroc.jpg"
     }
   },
@@ -83,6 +110,19 @@ const Dossiers = [
       "vehicule": "Limousine",
       "feature": "Tatouage",
       "Other": "Craving for shellfish",
+      "picture": "dazzle-annie.jpg"
+    },
+    "pt": {
+      "id": "3",
+      "name": "Dazzle Annie Nonker", 
+      "sex": "Feminino",
+      "Occupation":  "Proprietária do bar de iogurte mais duro a leste de Suez.",
+      "Miscellaneous":  "Nascida herdeira única da fortuna do rei das cadarços, o Barão Franz von Nonker, Annie foi rapidamente deserdada quando fugiu com um profissional de tênis croata. Abandonada ao desamparo quando não conseguiu entrar na Copa Davis de duplas mistas, ela foi forçada a viver apenas de sua inteligência e dos míseros US$ 3.000.000 que conseguiu economizar de sua mesada. Com esse modesto ganho inesperado e sua determinação inata, a loira bomba conseguiu abrir o Chez Acidophilus. Frequentado pelas escórias da humanidade, o Chez Acidoplilus tornou-se a sede do V.I.L.E. Dizem que Annie tem uma tatuagem e um desejo por frutos do mar. Ela é conhecida por dirigir uma limousine Bugatti.",
+      "hair": "Loiro",
+      "hobby": "Tênis",
+      "vehicule": "Limousine",
+      "feature": "Tatuagem",
+      "Other": "Desejo por frutos do mar",
       "picture": "dazzle-annie.jpg"
     }
   },
@@ -112,6 +152,19 @@ const Dossiers = [
       "feature": "Bague",
       "Other": "Mexican restaurants",
       "picture": "lady-agatha-wayland.jpg"
+    },
+    "pt": {
+      "id": "4",
+      "name": "Lady Agatha Wayland", 
+      "sex": "Feminino",
+      "Occupation":  "Uma personagem colorida com uma predileção por sapatos confortáveis, Lady Agatha é uma leitora de histórias de mistério que se passam em salões de desenho ingleses de alta classe.",
+      "Miscellaneous":  "Lady Agatha não tem capacidade para resolver casos de assassinato, mas está muito interessada em acumular grande riqueza. Uma infratora compulsiva, ela adora exceder o limite de velocidade em seu Denghby super-chauvinista. Com cachos ruivos esvoaçando ao vento, ela dirige pelo campo em busca de ótimos restaurantes mexicanos. Uma esportista ávida, Lady Agatha é conhecida por ganhar alguns dólares extras nos fins de semana, derrotando moradores locais desavisados ​​ou nas quadras de tênis locais. Dizem que ela possui um anel de diamante do tamanho de uma pequena toranja roubado do Tesouro Real de Graustark.",
+      "hair": "Vermelho",
+      "hobby": "Tênis",
+      "vehicule": "Denghby super-chauvinista",
+      "feature": "Anel de diamante",
+      "Other": "Restaurantes mexicanos",
+      "picture": "lady-agatha-wayland.jpg"
     }
   },
   {
@@ -139,6 +192,19 @@ const Dossiers = [
       "vehicule": "Decapotable",
       "feature": "Tatouage",
       "Other": "Seefood",
+      "picture": "len-bulk.jpg"
+    },
+    "pt": {
+      "id": "5",
+      "name": "Len Red Bulk", 
+      "sex": "Masculino",
+      "Occupation":  "Ex-jogador profissional de hóquei e jogador compulsivo, Len foi banido para sempre de jogar quando foi pego tentando subornar a si mesmo.",
+      "Miscellaneous":  "Amargo e desempregado, Bulk foi forçado a se voltar para o crime para sustentar seu vício em jogos de azar. Ele jura que vai parar assim que ganhar o grande prêmio. Devido a um hábito infeliz de bloquear muitos chutes com a cabeça, Len às vezes pensa que é um carneiro da Serra e começa a escalar o pico mais próximo. Não cabe em nenhum carro que tenha capota, adora frutos do mar e tenta impressionar estranhos mostrando a eles a tatuagem de uma sereia no polegar da mão direita.",
+      "hair": "Vermelho",
+      "hobby": "Alpinista",
+      "vehicule": "Conversível",
+      "feature": "Tatuagem",
+      "Other": "Frutos do mar",
       "picture": "len-bulk.jpg"
     }
   },
@@ -168,6 +234,19 @@ const Dossiers = [
       "feature": "Bague",
       "Other": "folk guitarist",
       "picture": "scar-graynolt.jpg"
+    },
+    "pt": {
+      "id": "6",
+      "name": "Scar Graynolt", 
+      "sex": "Masculino",
+      "Occupation":  "Scar faz o papel de um guitarrista folk de modos suaves, enquanto na realidade, ele é um completo feio.",
+      "Miscellaneous":  "Graynolt fez fortuna vendendo faixas refletivas para equipes de basquete escandinavas para permitir que elas jogassem ao ar livre pela primeira vez durante os meses de inverno. Um superatleta, Scar joga croquet mortal por dinheiro. Uma de suas posses mais valiosas é um anel mindinho de cinco quilates que ele ganhou de Ihor Ihorovitch em uma partida de maratona que durou três dias. Raramente visto em público, ele anda de limousine com vidros escuros com seu fiel servo, um sherpa de 1,83 m, como seu único companheiro. Dizem que ele tem cabelos ruivos.",
+      "hair": "Vermelho",
+      "hobby": "Croquet",
+      "vehicule": "Limousine",
+      "feature": "Anel mindinho",
+      "Other": "Guitarrista folk",
+      "picture": "scar-graynolt.jpg"
     }
   },
   {
@@ -195,6 +274,19 @@ const Dossiers = [
       "vehicule": "Moto",
       "feature": "Bague",
       "Other": "Mexican food",
+      "picture": "nick-brunch.jpg"
+    },
+    "pt": {
+      "id": "7",
+      "name": "Nick Brunch", 
+      "sex": "Masculino",
+      "Occupation":  "Ex-detetive particular, duro, ouvido, nariz e garganta.",
+      "Miscellaneous":  "As únicas coisas que interessam Nick são carros rápidos e mulheres mais rápidas. Ele nunca recusará uma aventura que lhe permita viver na pista rápida. Um ávido alpinista, Brunch foi visto pela última vez rugindo por uma vila alpina em sua motocicleta Kamikaze-1250. Ele geralmente usa um casaco de chuva sujo, fedora de aba de pressão e ostenta um anel de lutador do crime do Dick Tracy na mão esquerda. Um amigo próximo de Scar Graynolt, eles compartilham um interesse comum em comida mexicana. Brunch tem cabelos pretos, olhos castanhos e um bigode desgrenhado.",
+      "hair": "Preto",
+      "hobby": "Alpinista",
+      "vehicule": "Motocicleta Kamikaze-1250",
+      "feature": "Anel de lutador do crime do Dick Tracy na mão esquerda. Olhos castanhos e um bigode desgrenhado",
+      "Other": "Comida mexicana",
       "picture": "nick-brunch.jpg"
     }
   },
@@ -224,6 +316,19 @@ const Dossiers = [
       "feature": "Diamant",
       "Other": "Mexican food",
       "picture": "fast-eddie-b.jpg"
+    },
+    "pt": {
+      "id": "8",
+      "name": "Fast Eddie B.", 
+      "sex": "Masculino",
+      "Occupation":  "Um jogador de croquet de classe mundial, ele sempre carrega seu conjunto de tacos personalizados no porta-malas de seu conversível.",
+      "Miscellaneous":  "Ladrão cavalheiro e ladrão de gatos da sociedade, Fast Eddie se mistura facilmente com a alta sociedade e geralmente pode ser encontrado em um dos 10 principais campos de jogos para ricos da revista People. Impecavelmente bem cuidado o tempo todo, ele já lutou um duelo com um garçom em seu restaurante mexicano favorito que derramou uma gota de molho picante em seu terno de linho branco. Seu crime mais famoso foi o roubo de uma toalha de mesa de damasco. Fingindo ser um garçom, Fast Eddie removeu-a da mesa durante um jantar de Estado para o Embaixador sem derramar uma gota ou quebrar um prato. Na verdade, o roubo só foi notado na hora do jantar. Este mestre do crime de cabelos negros sempre deixa um broche de diamante na cena do crime como sua marca registrada.",
+      "hair": "Preto",
+      "hobby": "Croquet",
+      "vehicule": "Conversível",
+      "feature": "Diamante",
+      "Other": "Comida mexicana",
+      "picture": "fast-eddie-b.jpg"
     }
   }, 
   {
@@ -251,7 +356,21 @@ const Dossiers = [
       "vehicule": "Limousine",
       "feature": "Tatouage ukrainien",
       "Other": "Lobster Seefood",
-      "picture": "ihor-ihorovitch.jpg"}
+      "picture": "ihor-ihorovitch.jpg"
+    },
+    "pt": {
+      "id": "9",
+      "name": "Ihor Ihorovitch", 
+      "sex": "Masculino",
+      "Occupation":  "Pretendente ao trono czarista e muitas outras coisas também. Ihorovitch tem uma habilidade incrível de desaparecer de vista por períodos de tempo variados.",
+      "Miscellaneous":  "Ele parece ter uma grande fascinação por marsupiais muito grandes. Um bruto simpático, Ihorovitch fornece uma mão adicional para as atividades nefastas da máfia. Loiro e ostentando uma estranha tatuagem ucraniana, ele é conhecido por comer o conteúdo de um tanque inteiro de lagostas sozinho. Ihorovitch tem um aparelho de televisão colorido instalado em sua limousine para que ele não perca os desenhos animados da manhã de sábado.",
+      "hair": "Loiro",
+      "hobby": "Croquet",
+      "vehicule": "Limousine",
+      "feature": "Estranha tatuagem ucraniana",
+      "Other": "Lagosta Frutos do mar",
+      "picture": "ihor-ihorovitch.jpg"
+    }
   },
   {
     "en": {
@@ -279,9 +398,21 @@ const Dossiers = [
       "feature": "Tatouage",
       "Other": "Seefood",
       "picture": "katherine-boom-boom-drib.jpg"
+    },
+    "pt": {
+      "id": "10",
+      "name": "Katherine Boom-Boom Drib", 
+      "sex": "Feminino",
+      "Occupation":  "Tricampeã da corrida de motocicletas Trans-Siberiana. Drib é a anfitriã oficial do V.I.L.E.",
+      "Miscellaneous":  "A beleza morena - uma vez capa da revista Popular Mechanics - é fanática por saúde e condicionamento físico. Embora nunca tenha comparecido a uma reunião, ela é membro fundadora da aula de aeróbica de Merey LaRoc. Uma cozinheira gourmet especializada em pratos de frutos do mar, ela também é fascinada pelo conceito de escalada. Ela tem uma tatuagem de uma águia no bíceps esquerdo.",
+      "hair": "Preto",
+      "hobby": "Fitness aeróbico",
+      "vehicule": "Motocicleta",
+      "feature": "Tatuagem de uma águia no bíceps esquerdo",
+      "Other": "Frutos do mar",
+      "picture": "katherine-boom-boom-drib.jpg"
     }
   },
 ];
 
 export default Dossiers;
- 
