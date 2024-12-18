@@ -3,193 +3,193 @@
 */
 const Cases = [
   {
-    "en": {
-      "start":[
-        "****** FLASH ******", 
-        "National treasure stolen from Paris.",
-        "The treasure has been identified as the elevator from the Eiffel Tower.",
-        "Female suspect reported at the scene of the crime.",
-        "Your assignement: Track the thief from Paris to her hideout and arrested her!",
-        "You must apprehend the thief by Sunday, 5 pm.",
-        "Good luck ! "
+    "pt": {
+      "start": [
+        "****** FLASH ******",
+        "O Vaticano foi roubado!",
+        "A relíquia sagrada, a coroa de São Pedro, foi levada!",
+        "Uma mulher foi vista fugindo da cena do crime.",
+        "Sua missão: rastrear a ladra de Roma até seu esconderijo e prendê-la!",
+        "Você deve apreender a ladra até domingo, 17h.",
+        "Boa sorte! "
       ],
       "steps": [
         {
           "city": {
-            "name": "Paris",
-            "description": "France, with a population of about 55 millions, is famous for its food, wine, fashion and art.",
-            "img": "paris.jpg"
+            "name": "Roma",
+            "description": "Roma, a capital da Itália, é famosa por sua história antiga, com marcos como o Coliseu e o Vaticano, sede da Igreja Católica.",
+            "img": "roma.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "church",
+                "value": "Igreja"
+              },
+              "Guy": {
+                "key": "priest",
+                "value": "Padre"
+              },
+              "Clue": "Eu ouvi dizer que ela estava fazendo perguntas sobre a história do Império Romano."
+            },
+            {
+              "Place": {
+                "key": "restaurant",
+                "value": "Restaurante"
+              },
+              "Guy": {
+                "key": "chef",
+                "value": "Chef"
+              },
+              "Clue": "Ela pediu uma refeição com azeite e trufas, e parecia muito interessada em arte medieval."
+            },
+            {
+              "Place": {
+                "key": "airport",
+                "value": "Aeroporto"
+              },
+              "Guy": {
+                "key": "checkin",
+                "value": "Funcionário de check-in"
+              },
+              "Clue": "Eu vi a pessoa que você procura, ela saiu em um voo para uma cidade costeira com uma bandeira azul e branca na cauda."
+            }
+          ],
+          "destinations": ["Atenas", "Paris", "Lisboa"]
+        },
+        {
+          "city": {
+            "name": "Atenas",
+            "description": "Atenas é a capital da Grécia, berço da democracia, com monumentos icônicos como o Parthenon e a Acrópole.",
+            "img": "atenas.jpg"
           },
           "clues": [
             {
               "Place": {
                 "key": "museum",
-                "value": "Museum"
+                "value": "Museu"
               },
               "Guy": {
                 "key": "curator",
-                "value": "Curator"
+                "value": "Curador"
               },
-              "Clue": "Sources tell me she asked questions about Shinto rituals."
+              "Clue": "A suspeita estava curiosa sobre a história de Esparta e perguntou sobre as termas antigas."
+            },
+            {
+              "Place": {
+                "key": "taverna",
+                "value": "Taverna"
+              },
+              "Guy": {
+                "key": "waiter",
+                "value": "Garçom"
+              },
+              "Clue": "Ela mencionou querer aprender sobre antigos mitos gregos, principalmente sobre deuses e heróis."
             },
             {
               "Place": {
                 "key": "airport",
-                "value": "Airport"
+                "value": "Aeroporto"
               },
               "Guy": {
                 "key": "pilot",
-                "value": "Pilot"
+                "value": "Piloto"
               },
-              "Clue": "I saw the person you're looking for and she left in a plane with a red and white flag on its wing. She asked about the recent tennis match."
-            },
-            {
-              "Place": {
-                "key": "palace",
-                "value": "Palace"
-              },
-              "Guy": {
-                "key": "soldier",
-                "value": "Soldier"
-              },
-              "Clue": "All I know is that she asked for a biography of Emperor Jimmu."
+              "Clue": "Ela embarcou em um avião com uma bandeira vermelha e dourada, e estava falando sobre uma antiga civilização marítima."
             }
           ],
-          "destinations": ["Oslo","Tokyo","Reykjavik"]
-        },
-        {
-          "city": {
-            "name": "Tokyo",
-            "description": "Tokyo, the capital of Japan, is overlooked by Mount Fuji, one of Japan's most famous sights",
-            "img": "tokyo.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "hotel",
-                "value": "Hotel"
-              },
-              "Guy": {
-                "key": "housedetective",
-                "value": "House detective"
-              },
-              "Clue": "I heard she wanted to know if she could take a steamer down the Tigris River."
-            },
-            {
-              "Place": {
-                "key": "airport",
-                "value": "Airport"
-              },
-              "Guy": {
-                "key": "pilot",
-                "value": "Pilot"
-              },
-              "Clue": "My sources tell me she said she had a job waiting for her at an oil field."
-            },
-            {
-              "Place": {
-                "key": "palace",
-                "value": "Palace"
-              },
-              "Guy": {
-                "key": "privycouncillor",
-                "value": "Privy Councillor"
-              },
-              "Clue": "The person you're looking for was here and she was disappointed when she found no books about the Assyrians."
-            }
-          ],
-          "destinations": ["Bamako","Baghdad","Moscow"]
-        },
-        {
-          "city": {
-            "name": "Baghdad",
-            "description": "In ancient times, Iraq was known as Mesopotamia. Modern-day Iraq is bordered by the nations of Jordan, Syria, Turkey, Iran, Kuwait and Saoudi Arabia.",
-            "img": "baghdad.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "bank",
-                "value": "Bank"
-              },
-              "Guy": {
-                "key": "bankguard",
-                "value": "Bank guard"
-              },
-              "Clue": "I heard she changed her money to pounds she was driving a limo."
-            },
-            {
-              "Place": {
-                "key": "library",
-                "value": "Library"
-              },
-              "Guy": {
-                "key": "referencelibrarian",
-                "value": "Reference librarian"
-              },
-              "Clue": "I heard she left in a vehicle flying a red, white and black flag. I noticed a tattoo on her arm."
-            },
-            {
-              "Place": {
-                "key": "foreignministry",
-                "value": "Foreign Ministry"
-              },
-              "Guy":{
-                "key":"undersecretary",
-                "value":"Under secretary"
-              },
-              "Clue": "a suspicious was here and she said she was interested by pyramids."
-            }
-          ],
-          "destinations": ["Athens","Cairo","Rio de Janeiro"]
+          "destinations": ["Cairo", "Istambul", "Roma"]
         },
         {
           "city": {
             "name": "Cairo",
-            "description": "Cairo, located at the mouth of the Nile River, is the largest city in African.",
+            "description": "O Cairo é a maior cidade da África e está localizado na foz do Rio Nilo. É famoso pelas pirâmides de Gizé e pela história milenar.",
             "img": "cairo.jpg"
           },
           "clues": [
             {
               "Place": {
                 "key": "museum",
-                "value": "Museum"
+                "value": "Museu"
               },
               "Guy": {
-                "key": "curator",
-                "value": "Gardien"
+                "key": "guard",
+                "value": "Gardião"
               },
-              "Clue": "A reliable source told me she wanted study Saxon manuscripts."
+              "Clue": "Ela perguntou sobre os hieróglifos e parecia muito interessada na história dos faraós."
             },
             {
               "Place": {
-                "key": "riverfront",
-                "value": "Riverfront"
+                "key": "market",
+                "value": "Mercado"
               },
               "Guy": {
-                "key": "sailorssnail",
-                "value": "Sailor's snail"
+                "key": "spicevendor",
+                "value": "Vendedor de especiarias"
               },
-              "Clue": "My sources tell me she left in a tugboat flying a red, white and blue flag."
+              "Clue": "Ela comprou um colar de ouro, mas ficou muito intrigada com as antiguidades egípcias que vendemos."
             },
             {
               "Place": {
-                "key": "palace",
-                "value": "Palace"
+                "key": "hotel",
+                "value": "Hotel"
               },
               "Guy": {
-                "key": "palaceguard",
-                "value": "Palace guard"
+                "key": "receptionist",
+                "value": "Recepcionista"
               },
-              "Clue": "The person you're looking for was here and she said she wanted to find out what made Big Ben tick."
+              "Clue": "Eu ouvi dizer que ela falava sobre um arqueólogo famoso, procurando por uma tumba antiga."
             }
           ],
-          "destinations": ["London","Colombo","Rome"]
+          "destinations": ["Bagdá", "Londres", "Casablanca"]
         },
         {
           "city": {
-            "name": "London",
-            "description": "London, with a population of more than 6,5 million, is the largest city in the United Kingdom. One of its many landmarks is the Big Ben clock tower.",
+            "name": "Bagdá",
+            "description": "Bagdá, a capital do Iraque, é uma cidade histórica com raízes profundas na civilização mesopotâmica.",
+            "img": "bagda.jpg"
+          },
+          "clues": [
+            {
+              "Place": {
+                "key": "bank",
+                "value": "Banco"
+              },
+              "Guy": {
+                "key": "bankguard",
+                "value": "Guarda do banco"
+              },
+              "Clue": "Ela trocou dinheiro por dinheiros antigos, estava com uma mala pesada."
+            },
+            {
+              "Place": {
+                "key": "market",
+                "value": "Mercado"
+              },
+              "Guy": {
+                "key": "streetvendor",
+                "value": "Feirante"
+              },
+              "Clue": "Vi ela conversando sobre artefatos sumerianos e sobre escavações arqueológicas."
+            },
+            {
+              "Place": {
+                "key": "restaurant",
+                "value": "Restaurante"
+              },
+              "Guy": {
+                "key": "waiter",
+                "value": "Garçom"
+              },
+              "Clue": "Ela parecia interessada na história da Babilônia, e mencionou algo sobre um antigo rei."
+            }
+          ],
+          "destinations": ["Atenas", "Paris", "Teerã"]
+        },
+        {
+          "city": {
+            "name": "Londres",
+            "description": "Londres, capital do Reino Unido, é famosa por sua cultura, história e monumentos, como o Big Ben e o Palácio de Buckingham.",
             "img": "london.jpg"
           },
           "clues": [
@@ -200,273 +200,43 @@ const Cases = [
               },
               "Guy": {
                 "key": "housedetective",
-                "value": "House detective"
+                "value": "Detetive particular"
               },
-              "Clue": "All I know is that something suspicious is going on in town."
+              "Clue": "Algo estranho está acontecendo na cidade, ela procurava algo, mas não soube dizer o quê."
             },
             {
               "Place": {
                 "key": "harbor",
-                "value": "Harbor"
+                "value": "Porto"
               },
               "Guy": {
                 "key": "sailor",
-                "value": "Sailor"
+                "value": "Marinheiro"
               },
-              "Clue": "All I know is that something suspicious is going on in town."
-            },
-            {
-              "Place": {
-                "key": "foreignministry",
-                "value": "Foreign Ministry"
-              },
-              "Guy": {
-                "key": "palaceguard",
-                "value": "Palace guard"
-              },
-              "Clue": ""
-            }
-          ],
-          "destinations": []
-        }
-      ],
-      "thief": "Dazzle Annie Nonker",
-      "endSuccess": {
-        "thanks3": "had the loot, the elevator from the Eiffel Tower, which will be returned to the grateful residents of Paris."
-      }
-    },
-    "fr": {
-      "start":[
-        "****** FLASH ******", 
-        "Trésor national dérobé à Paris",
-        "Le trésor a été identifié en haut de l'ascenseur de la Tour Eiffel.",
-        "Un suspect de sexe féminin a été vu sur la scène du crime.",
-        "Votre mission: Traquer la voleuse de Paris et l'arrêter !",
-        "Vous avez jusqu'à dimanche 17h.",
-        "Bonne chance ! "
-      ],
-      "steps": [
-        {
-          "city": {
-            "name": "Paris",
-            "description": "La France, avec une population de 55 millions d'habitants, est célèbre pour sa gastronomie, ses vins, sa mode et ses arts.",
-            "img": "paris.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "museum",
-                "value": "Musée"
-              },
-              "Guy": {
-                "key": "curator",
-                "value": "Gardien"
-              },
-              "Clue": "Des sources m'ont raconté qu'elle posait des questions sur les rituels Shinto."
-            },
-            {
-              "Place": {
-                "key": "airport",
-                "value": "Aéroport"
-              },
-              "Guy": {
-                "key": "pilot",
-                "value": "Pilote"
-              },
-              "Clue": "J'ai vu la personne que vous cherchez et elle est partie à bord d'un avion avec un drapeau rouge et blanc sur son aile. Elle a posé des questions sur le dernier match de tennis."
-            },
-            {
-              "Place": {
-                "key": "palace",
-                "value": "Palace"
-              },
-              "Guy": {
-                "key": "soldier",
-                "value": "Soldat"
-              },
-              "Clue": "Tout ce que je sais c'est qu'elle voulait lire une biographie de l'Empereur Jimmu."
-            }
-          ],
-          "destinations": ["Oslo","Tokyo","Reykjavik"]
-        },
-        {
-          "city": {
-            "name": "Tokyo",
-            "description": "Tokyo, la capitale du Japon, est surplombé par le mont Fuji, une des plus belles vues du Japon.",
-            "img": "tokyo.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "hotel",
-                "value": "Hôtel"
-              },
-              "Guy": {
-                "key": "housedetective",
-                "value": "Détective privé"
-              },
-              "Clue": "J'ai cru comprendre qu'elle voulait savoir si elle pouvait naviguer sur le Tigre."
-            },
-            {
-              "Place": {
-                "key": "airport",
-                "value": "Aéroport"
-              },
-              "Guy": {
-                "key": "pilot",
-                "value": "Pilote"
-              },
-              "Clue": "Mes indics m'ont dit qu'elle avait un boulot en attente autour d'un puits de pétrole."
-            },
-            {
-              "Place": {
-                "key": "palace",
-                "value": "Palace"
-              },
-              "Guy": {
-                "key": "privycouncillor",
-                "value": "Conseiller privé"
-              },
-              "Clue": "La personne que vous cherchez est passée ici et elle était déçue quand elle a découvert qu'il n'y avait aucun livre sur les Assyriens."
-            }
-          ],
-          "destinations": ["Bamako","Baghdad","Moscow"]
-        },
-        {
-          "city": {
-            "name": "Baghdad",
-            "description": "Il fut un temps, l'Irak s'appelait la Mésopotamie. Aujourd'hui, l'Irak est entouré par la Jordanie, la Syrie, la Turquie, l'Iran, le Koweit and l'Arabie Saoudite.",
-            "img": "baghdad.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "bank",
-                "value": "Banque"
-              },
-              "Guy": {
-                "key": "bankguard",
-                "value": "Conseiller bancaire"
-              },
-              "Clue": "J'ai entendu qu'elle changeait sa monnaie en pounds et qu'elle conduisait une limousine."
-            },
-            {
-              "Place": {
-                "key": "library",
-                "value": "Bibliothèque"
-              },
-              "Guy": {
-                "key": "referencelibrarian",
-                "value": "Bibliothécaire"
-              },
-              "Clue": "Elle a quitté un véhicule avec un drapeau rouge, blanc et noir. J'ai remarqué un tatouage sur son bras."
-            },
-            {
-              "Place": {
-                "key": "foreignministry",
-                "value": "Ministre des affaires étrangères"
-              },
-              "Guy": {
-                "key": "undersecretary",
-                "value": "Sous-secrétaire"
-              },
-              "Clue": "Une personne suspecte est passée par ici et elle disait qu'elle était intérssée par les pyramides."
-            }
-          ],
-          "destinations": ["Athens","Cairo","Rio de Janeiro"]
-        },
-        {
-          "city": {
-            "name": "Cairo",
-            "description": "Le Caire, situé à l'embouchure du Nil est une des plus grandes villes africaines.",
-            "img": "cairo.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "museum",
-                "value": "Musée"
-              },
-              "Guy": {
-                "key": "curator",
-                "value": "Gardien"
-              },
-              "Clue": "Une source sûre m'a raconté qu'elle voulait étudier des manuscrits saxons."
-            },
-            {
-              "Place": {
-                "key": "riverfront",
-                "value": "Front de mer"
-              },
-              "Guy": {
-                "key": "sailorssnail",
-                "value": "Escargot marin"
-              },
-              "Clue": "Mes indics m'ont raconté qu'elle quittait un avion avec un drapeau rouge blanc et bleu."
-            },
-            {
-              "Place": {
-                "key": "palace",
-                "value": "Palace"
-              },
-              "Guy": {
-                "key": "palaceguard",
-                "value": "Palace guard"
-              },
-              "Clue": "La personne que vous cherchez était ici et elle voulait visiter la tour Big Ben."
-            }
-          ],
-          "destinations": ["London","Colombo","Rome"]
-        },
-        {
-          "city": {
-            "name": "London",
-            "description": "Londre, avec une population de 6,5 millions d'habitants, est la plus grande ville du Royaume-Uni. Sa tour la plus connue a pour nom Big Ben.",
-            "img": "london.jpg"
-          },
-          "clues": [
-            {
-              "Place": {
-                "key": "hotel",
-                "value": "Hôtel"
-              },
-              "Guy": {
-                "key": "housedetective",
-                "value": "Détective privé"
-              },
-              "Clue": "Tout ce que je sais c'est qu'il se passe quelque chose de louche en ville."
-            },
-            {
-              "Place": {
-                "key": "harbor",
-                "value": "Port"
-              },
-              "Guy": {
-                "key": "sailor",
-                "value": "Marin"
-              },
-              "Clue": "Tout ce que je sais c'est qu'il se passe quelque chose de louche en ville."
+              "Clue": "Eu vi ela entrando em um barco, parecia preocupada com algo relacionado à História Inglesa."
             },
             {
               "Place": {
                 "key":"foreignministry",
-                "value": "Ministre des affaires étrangères"
+                "value": "Ministério das Relações Exteriores"
               },
               "Guy": {
                 "key": "palaceguard",
-                "value": "Garde du palace"
+                "value": "Guarda do palácio"
               },
-              "Clue": ""
+              "Clue": "A pessoa que você procura esteve aqui e estava interessada em alguma coisa relacionada a um grande império."
             }
           ],
           "destinations": []
         }
       ],
-      "thief": "Dazzle Annie Nonker",
+      "thief": "Sofia Duarte",
       "endSuccess": {
-        "thanks3": "a le butin, the elevator from the Eiffel Tower, which will be returned to the grateful residents of Paris."
+        "thanks3": "tinha o saque, a coroa de São Pedro, que será devolvido aos gratos moradores de Roma."
       }
-    },
+    }
+  },
+  {
     "pt": {
       "start":[
         "****** FLASH ******", 
